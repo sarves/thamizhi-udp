@@ -22,25 +22,25 @@ pip3 install uuparser
 [Download this compressed file](http://nlp-tools.uom.lk/thamizhi-udp/thamizhi-pos-morph-ud-parsers.zip) , and uncompressed it. You should be able to see the following scipts: thamizhi-post.py, thamizhi-morph.py, thamizhi-pos-morph.py, parse.sh, and the following two folders: models and thamizhiudp
 
 
-1. **POS Tagging: ThamizhiPOSt:
+1. **POS Tagging: ThamizhiPOSt:**
 ```
 python3 thamizhi-post.py "input-file"
 ```
 where "input-file" is the text file you want to POS tag. (there should not be any empty lines in the file) . This will generate a file called pos-tagged.txt. For more information about POS tagging, visit ThamizhiPOSt
 
-2. **Morphological Tagging: ThamizhiMorph:
+2. **Morphological Tagging: ThamizhiMorph:**
 ```
 python3 thamizhi-morph.py "input-file"
 ```
 where "input-file" is the text file you want to POS tag. (there should not be any empty lines in the file) . This will generate a file called morph-tagged.txt. For more information about Morphological tagging, visit ThamizhiMorph
 
-3. **POS-Morphology aligned Tagging: ThamizhiPOSt & ThamizhiMorph:
+3. **POS-Morphology aligned Tagging: ThamizhiPOSt & ThamizhiMorph:**
 ```
 python3 thamizhi-pos-morph.py "input-file"
 ```
 where "input-file" is the text file you want to POS-Morphology aligned tags. (there should not be any empty lines in the file) . This will generate a file called pos-morph-aligned.txt.
 
-4. **Dependency Parsing: ThamizhiUDp:
+4. **Dependency Parsing: ThamizhiUDp:**
 ```
 ./parse.sh "input-file"
 ```
