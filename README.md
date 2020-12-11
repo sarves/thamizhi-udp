@@ -24,14 +24,20 @@ python3 thamizhi-post.py "input-file"
 where "input-file" is the text file you want to POS tag. (there should not be any empty lines in the file) . This will generate a file called pos-tagged.txt. For more information about POS tagging, visit ThamizhiPOSt
 
 2. Morphological Tagging: ThamizhiMorph:
-``` python3 thamizhi-morph.py "input-file"```
+```
+python3 thamizhi-morph.py "input-file"
+```
 where "input-file" is the text file you want to POS tag. (there should not be any empty lines in the file) . This will generate a file called morph-tagged.txt. For more information about Morphological tagging, visit ThamizhiMorph
 
 3. POS-Morphology aligned Tagging: ThamizhiPOSt & ThamizhiMorph:
-```python3 thamizhi-pos-morph.py "input-file"```
+```
+python3 thamizhi-pos-morph.py "input-file"
+```
 where "input-file" is the text file you want to POS-Morphology aligned tags. (there should not be any empty lines in the file) . This will generate a file called pos-morph-aligned.txt.
 
 4. Dependency Parsing: ThamizhiUDp:
-```./parse.sh "input-file"```
+```
+./parse.sh "input-file"
+```
 where "input-file" is the text file . Currently, this file has to be in CoNLL format, you can have an "_" as a placeholder for dependency lable. Soon we will make a sophesticated script using which you can easily parse raw text. This script will generate a file called dependency-parsed.txt.
 
