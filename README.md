@@ -8,7 +8,18 @@ ThamizhiUDp uses Stanza for tokenisation and lemmatisation, ThamizhiPOSt and Tha
 Our dependency parser ThamizhiUDp was trained using multilingual data. It shows a Labelled Assigned Score (LAS) of 62.39, 4 points higher than the current best achieved for Tamil dependency parsing. 
 
 ## Cite us
+Please cite this if you use Thamizhi-POS tool / models / tagged data:
+
 Sarveswaran, K, Gihan Dias, 2020, December. "ThamizhiUDp: A Dependency Parser for Tamil". In Proceedings of the 17th International Conference on Natural Language Processing (ICON-2020), IIT Patna, India [Accepted].
+
+@misc{sarveswaran2020thamizhiudp,
+      title={ThamizhiUDp: A Dependency Parser for Tamil}, 
+      author={Sarveswaran, Kengatharaiyer and Dias, Gihan},
+      year={2020},
+      eprint={2012.13436},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 
 # How to use
 
